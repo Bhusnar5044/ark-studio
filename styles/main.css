@@ -1,1 +1,231 @@
-<!-- In this file you are going to write the CSS code -->
+html {
+    /* font-size: 16px; */
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin:0;
+}
+
+.transparent_nav{
+    position: fixed;
+    overflow: hidden;    
+    width: 100%;
+    /* left: 0; */
+    top: 0;
+    background-color: rgba(95, 158, 160, 0.7) ;
+}
+
+.nav_bar{
+    /* display: inline-block; */
+    width: 100%;
+    max-width: 936px;
+    padding: 0.5rem 0;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem;
+    background: darkslategrey;
+    color: aliceblue;
+}
+
+
+#nav_list{
+    display: inline-block;
+    margin-left: 50%;
+}
+
+#nav_list li{
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+#nav_list li a{
+    padding-bottom: 0.2rem;
+    color: white;
+    transition: all 0.4s;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.welimage{
+    height: 500px;
+    width: 100%;
+}
+.cta{
+    position: absolute;
+    top: 425px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+
+.cta #cta_text{
+     display: inline-block;
+     margin-left: 10px;
+    
+}
+.cta a{
+    display: inline-block;
+    color: white;
+    align-self: center;
+    padding: 10px;
+}
+
+.btn{
+    padding: 0.5rem;
+    background-color: turquoise;
+}
+
+.services .wrapper{
+    width: 100%;
+    overflow: auto;
+   
+
+}
+.services{
+    margin-bottom: 100px;
+}
+.services h1{
+    text-align: center;
+    padding: 50px 0 30px 0;
+}
+.services .horizontal{
+ align-self: center;
+ margin-left: 25%;
+ margin-right: 25%;
+ margin-bottom: 20px;
+}
+.services ul{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+  /* align-items: center; */
+}
+.services ul li{
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    text-align: center;
+}
+.services ul li i{
+    font-size: 45px;
+}
+ul{
+    list-style: none;
+}
+
+.recent_work{
+    /* overflow: auto; */
+    width: 100%;
+    /* display: flex;
+   
+    justify-content: center; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.recent_work img{
+    width: 260px;
+    height: 300px;
+}
+
+.testimonials{
+    overflow: auto;
+    margin-bottom: 50px;
+    background-color:#80808029;
+}
+.testimonials ul{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: space-between;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+.testimonials .heading{
+    text-align: center;
+    padding: 35px;
+}
+.testimonials .card {
+    max-width: 300px;
+    margin: auto;
+    text-align: justify;
+    font-family: arial;
+  }
+  
+.testimonials .title {
+    color: grey;
+    font-size: 18px;
+}
+
+footer{
+    background-color: black;
+    padding: 90px 0 5px 0;
+    position: relative;
+}
+
+footer_widget{
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: space-evenly;
+}
+
+footer_widget div{
+    width: 200px;
+    height: auto;
+    /* text-align: center; */
+    justify-content: center;
+    color: white;
+    text-align: justify;
+
+}
+
+footer_widget div a{
+    color: white;
+    text-align: justify;
+}
+
+footer_widget div h3{
+    margin-bottom: 50px;
+}
+footer_widget div li{
+    padding: 0 0 8px 0;
+}
+footer_widget div span{
+    margin: 0 0 8px 0;
+}
+footer .rights{
+    color: white;
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+}
+
+.widget{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    justify-content: space-around; 
+}
