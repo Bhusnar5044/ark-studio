@@ -189,7 +189,6 @@ ul{
 
 /* --------start footer-------- */
 
-footer .footer_widget { grid-area: item0; }
 footer .item1 { grid-area: item1; }
 footer .item2 { grid-area: item2; }
 footer .item3 { grid-area: item3; }
@@ -202,7 +201,6 @@ footer{
     position: relative; */
     display: grid;
     grid-template-areas:
-      'item0 item0 item0 item0 item0 item0'
       'item1 item1 item2 item3 item4 item4'
       'item5 item5 item5 item5 item5 item5';
     grid-gap: 10px;
