@@ -209,7 +209,7 @@ footer{
     background-color: black;
     /* padding: 10px; */
 }
-
+/* 
 .footer_widget{
     margin-left: 20%;
     margin-right: 20%;
@@ -237,7 +237,7 @@ footer{
 
 .footer_widget:hover{
     background-color: brown;
-}
+} */
 
 footer .column{
     width: 25%;
@@ -251,6 +251,10 @@ footer .column{
 footer div a{
     color: white;
     text-align: justify;
+}
+
+footer div a:hover{
+    color:darkred;
 }
 
 footer div h3{
